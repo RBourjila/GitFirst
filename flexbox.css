@@ -1,0 +1,49 @@
+#Rouge{
+    background-color: red;
+    display: flex;
+    height : 150px;
+    justify-content: flex-start;
+}
+#color{
+    display: flex ;
+}
+#vert{
+    background-color: green;
+    height: 650px;
+    width: 1000px;
+}
+#jaune{
+    background-color: yellow;
+    height: 650px;
+    width: 1000px;
+}
+#Bleu{
+    background-color: blue;
+    display : flex;
+    height : 150px;
+    justify-content: flex-end;
+}
+@media screen and (max-width: 800px) {
+    #Rouge{
+        background-color: red;
+        height : 150px;  
+    }
+    #color{
+        display: flex ;
+    }
+    #vert{
+        background-color: green;
+        height: 650px;
+        
+    }
+    #jaune{
+        background-color: yellow;
+        height: 650px;
+        
+    }
+    #Bleu{
+        background-color: blue;
+        display : flex;
+        height : 150px;
+    }
+}
